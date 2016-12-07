@@ -1,4 +1,4 @@
-Notifications in mobile apps are a great way of engaging users, re-engaging with inactive users and retaining the  active ones. **Soapbox** is a library that helps generate rich and dynamic notifications to cater to a diverse set of users. It can create normal, carousel notifications with text and images. These can either be push notifications or notifications generated locally within the app.
+Notifications in mobile apps are a great way of engaging users, re-engaging with inactive users and retaining the active ones. **Soapbox** is a library that helps generate rich and dynamic notifications to cater to a diverse audience. It can create normal, carousel notifications with text and images. These can either be push notifications or notifications generated locally within the app.
 
 **Features**
 
