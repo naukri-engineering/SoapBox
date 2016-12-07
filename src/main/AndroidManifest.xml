@@ -1,0 +1,29 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.naukri.soapbox">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <service android:name="com.naukri.soapbox.service.NotificationDeleteService" />
+
+        <receiver android:name="com.naukri.soapbox.broadcastrecievers.SliderNotificationBroadcast">
+            <intent-filter>
+                <action android:name="back_slider_broadcast" />
+                <action android:name="front_slider_broadcast" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.naukri.soapbox.broadcastrecievers.CarouselNotificationBroadcast">
+            <intent-filter>
+                <action android:name="back_carousel_broadcast" />
+                <action android:name="front_carousel_broadcast" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>
