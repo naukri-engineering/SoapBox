@@ -91,6 +91,8 @@ To integrate the library in your application, follow the steps below,
 
 * Vishakha Tyagi
 
+* Rashi Atry
+
 * Minni Arora
 
 **Contact Us**
